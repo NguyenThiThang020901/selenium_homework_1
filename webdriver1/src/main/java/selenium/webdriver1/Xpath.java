@@ -137,9 +137,9 @@ public class Xpath {
 	public void TC_06_Register_Invalid_Phone() {
 		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
-		driver.findElement(By.id("txtFirstname")).sendKeys("thao tran");
-		driver.findElement(By.id("txtEmail")).sendKeys("thaotran@gmail.com");
-		driver.findElement(By.id("txtCEmail")).sendKeys("thaotran@gmail.com");
+		driver.findElement(By.id("txtFirstname")).sendKeys("thang nguyen");
+		driver.findElement(By.id("txtEmail")).sendKeys("nguyenthithang09001@gmail.com");
+		driver.findElement(By.id("txtCEmail")).sendKeys("nguyenthithang09001@gmail.com");
 		driver.findElement(By.id("txtPassword")).sendKeys("123");
 		driver.findElement(By.id("txtCPassword")).sendKeys("1234");
 		driver.findElement(By.id("txtPhone")).sendKeys("12344549");
